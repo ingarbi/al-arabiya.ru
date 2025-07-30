@@ -11,9 +11,9 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-              { src: 'images/slides/first.jpg' },
-              { src: 'images/slides/second.jpg' },
-              { src: 'images/slides/Visit.jpg' }
+              { src: 'images/slides/arabiya.jpg' },
+              { src: 'images/slides/arabiya2.jpg' },
+              { src: 'images/slides/arabiya3.jpg' }
           ],
           timer: false,
           animation: 'kenburns',
