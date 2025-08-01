@@ -2790,24 +2790,20 @@ input, select, textarea {
   }
   
   /* Контент */
-  .hero-content {
-	position: relative;
-	z-index: 3;
-	width: 100%;
-	padding: 0 15px;
-	color: white;
-	text-align: center;
-  }
+  
   
   .hero-title {
 	font-size: 3rem;
 	line-height: 1.2;
 	margin-bottom: 1.5rem;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	color:   #a1a49de4 !important; 
+	font-weight: bolder !important; 
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) !important; 
   }
   
   .highlight {
-	color: #f1a33c; /* Акцентный цвет */
+	color: hsla(57, 39%, 53%, 0.972);
+	text-shadow: 1px 1px 3px rgba(57, 38, 38, 0.998); /* Лёгкое свечение в цвет кафе */
   }
   
   .hero-subtitle {
@@ -2815,7 +2811,7 @@ input, select, textarea {
 	line-height: 1.5;
 	max-width: 800px;
 	margin: 0 auto 2rem;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px 3px rgba(57, 38, 38, 0.998);
   }
   
   /* Адаптация для планшетов */
@@ -2877,8 +2873,13 @@ input, select, textarea {
   
   .section-title {
 	font-size: 2.5rem;
-	color: #222;
-	margin-bottom: 15px;
+    color:   #a1a49de4; 
+    font-weight: bolder; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid   #a1a49de4; /* тонкая линия снизу для выделения */
+    padding-bottom: 5px; /* отступ снизу для линии */
   }
   
   .section-description {
@@ -2886,7 +2887,7 @@ input, select, textarea {
 	margin: 0 auto;
 	font-size: 1.1rem;
 	line-height: 1.6;
-	color: #555;
+	color: #555555ec;
   }
   
   /* Gallery Container */
@@ -3052,4 +3053,14 @@ input, select, textarea {
 
   .label:hover {
 	color: orange;
+  }
+  h3.address-title {	
+	font-family: 'Roboto', sans-serif !important;
+  	font-size: 24px !important;
+	color:   #a1a49de4 !important; 
+	font-weight: bolder !important; 
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) !important; 
+	letter-spacing: 1px !important;
+	margin-bottom: 15px !important;
+	
   }
