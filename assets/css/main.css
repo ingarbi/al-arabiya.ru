@@ -3018,42 +3018,7 @@ input, select, textarea {
 	position: relative;
   }
   
-  /* Секция портфолио */
-  .portfolio-section {
-	padding: 60px 0;
-	background: #f8f8f8;
-	margin-left: 375px; /* ширина вашего сайдбара */
-	width: calc(100% - 375px); /* 100% минус ширина сайдбара */
-  }
   
-  @media (max-width: 960px) {
-	.portfolio-section {
-	  margin-left: 0;
-	  width: 100%;
-	}
-  }
-
-
-  /* Иконки соцсетей в сайдбаре */
-#header .icons a:hover {
-	color: #FF8C00 !important; /* Оранжевый цвет как в Avito */
-  }
-  
-  /* Иконки соцсетей в контактах */
-  .social-icons a:hover i {
-	color: #FF8C00 !important;
-  }
-  
-  /* Плавное изменение цвета */
-  .icons a,
-  .social-icons a,
-  .avito-icon {
-	transition: color 0.3s ease, fill 0.3s ease;
-  }
-
-  .label:hover {
-	color: orange;
-  }
   h3.address-title {	
 	font-family: 'Roboto', sans-serif !important;
   	font-size: 24px !important;
