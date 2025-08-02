@@ -2802,16 +2802,16 @@ input, select, textarea {
   }
   
   .highlight {
-	color: hsla(57, 39%, 53%, 0.972);
-	text-shadow: 1px 1px 3px rgba(57, 38, 38, 0.998); /* Лёгкое свечение в цвет кафе */
+	color: hsla(57, 39%, 53%, 0.972) !important;
+	text-shadow: 1px 1px 3px rgba(57, 38, 38, 0.998) !important; /* Лёгкое свечение в цвет кафе */
   }
   
   .hero-subtitle {
-	font-size: 1.5rem;
-	line-height: 1.5;
-	max-width: 800px;
-	margin: 0 auto 2rem;
-	text-shadow: 1px 1px 3px rgba(57, 38, 38, 0.998);
+	font-size: 1.5rem !important;
+	line-height: 1.5 !important;
+	max-width: 800px !important;
+	margin: 0 auto 2rem !important;
+	text-shadow: 1px 1px 3px rgba(57, 38, 38, 0.998) !important;
   }
   
   /* Адаптация для планшетов */
